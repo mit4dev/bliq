@@ -68,7 +68,7 @@ $ npm run test:cov
 
 `/ping (GET)` - Returns `pong`
 
-`/v1/aggregates (GET)` - Returns array of `RideInformation`'s
+`/v1/aggregates (GET)` - Returns array of `RideInformation`'s sorted by the average price.
 
 See below for API type definitions.
 

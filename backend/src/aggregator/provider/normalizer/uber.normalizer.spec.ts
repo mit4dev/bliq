@@ -21,7 +21,7 @@ describe('UberNormalizer', () => {
     constants = module.get<AggregatorConstants>(AGGREGATOR_CONSTANTS);
   });
 
-  it('normalizes the Bolt specific information', () => {
+  it('normalizes the Uber specific information', () => {
     const option: UberRideInformation = {
       durationSeconds: 1800,
       price: 45,
